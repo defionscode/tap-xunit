@@ -1,7 +1,7 @@
 {
-  "name": "tap-xunit",
-  "version": "2.3.0",
-  "description": "TAP to xUnit XML converter.",
+  "name": "tap-xunit-circleci",
+  "version": "1.0.0",
+  "description": "TAP to xUnit XML converter. Forked from Ali Ghassemi's tap-xunit to better work with CI environments",
   "main": "lib/converter.js",
   "bin": {
     "tap-xunit": "./bin/tap-xunit",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aghassemi/tap-xunit.git"
+    "url": "git://github.com/defionscode/tap-xunit.git"
   },
   "keywords": [
     "tap",
@@ -24,11 +24,16 @@
     "name": "Ali Ghassemi",
     "email": "ali.ghassemi@gmail.com"
   },
+  "contributors": [{
+    "name": "Jonathan Davila",
+    "email": "jonathan@davila.io",
+    "url": "https://davila.io"
+  }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aghassemi/tap-xunit/issues"
+    "url": "https://github.com/defionscode/tap-xunit-circleci/issues"
   },
-  "homepage": "https://github.com/aghassemi/tap-xunit",
+  "homepage": "https://github.com/defionscode/tap-xunit-circleci",
   "devDependencies": {
     "concat-stream": "~1.5.1",
     "tape": "~4.2.2",

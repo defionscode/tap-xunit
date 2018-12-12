@@ -4,6 +4,13 @@
 tap-xunit
 =========
 
+**NOTE:** This is a fork of https://github.com/aghassemi/tap-xunit. It does exactly the same thing except for:
+
+1. All TAP output is outputted via stderr so that you can still see TAP messages when running this in a CI environments
+2. You get timing data per test file
+
+**It otherwise functions the same. You cannot install this AND aghassemi's version at the same time since the command namespace is identical**
+
 Converts [TAP](http://testanything.org/) to xUnit XML format.
 
 TAP output from testing frameworks such as [tape](https://github.com/substack/tape) or [node-tap](https://github.com/isaacs/node-tap) can be piped directly to tap-xunit
