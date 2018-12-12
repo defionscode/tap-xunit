@@ -12,12 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/defionscode/tap-xunit.git"
+    "url": "git://github.com/defionscode/tap-xunit-circleci.git"
   },
   "keywords": [
     "tap",
     "tape",
     "xunit",
+    "circleci",
     "junit"
   ],
   "author": {
